@@ -1,72 +1,188 @@
-# Week 01 Questions
+# Week 01 Questions & Answers
 
-## Repository information shared
+---
 
-- Repository: harendraputtur-debug/vlsiguru-ai-literacy-PD-HARENDRA
-- Repository ID: 1404714826
-- Source URL: https://github.com/harendraputtur-debug/vlsiguru-ai-literacy-PD-HARENDRA/blob/main/README.md
-- CommitOID: 50e6ab7292541c5828d098ca4a0021df5516a975
-- BlobSha: (not provided)
+## Q1. AI → ML → Deep Learning → Generative AI → Agents
 
-### README content
+### A - Answer
+- **Artificial Intelligence (AI):** The overarching field of computer science dedicated to creating systems capable of performing tasks that typically require human intelligence, such as reasoning, problem-solving, and perception.
+- **Machine Learning (ML):** A subfield of AI where algorithms analyze historical data to learn patterns and make predictions or decisions automatically without being explicitly programmed with fixed rules.
+- **Deep Learning (DL):** A specialized subset of ML based on multi-layered artificial neural networks designed to process complex, unstructured data (like images, audio, or text).
+- **Generative AI (GenAI):** A branch of Deep Learning focused on creating brand-new content (text, code, images, audio) by learning the underlying statistical structure of existing data.
+- **AI Agent:** A system architecture or workflow that uses an AI model (like an LLM) as its central reasoning engine to autonomously make decisions, plan multi-step workflows, and execute actions using external tools.
 
-```markdown
-# vlsiguru-ai-literacy-PD-HARENDRA
-```
+#### Concept Map / Hierarchy Diagram
 
-### Additional note
++-------------------------------------------------------------------+
+| ARTIFICIAL INTELLIGENCE (AI)                                     |
+|  Everyday Example: Chess engines (AlphaZero), Siri                |
+|                                                                   |
+|   +-----------------------------------------------------------+   |
+|   | MACHINE LEARNING (ML)                                     |   |
+|   |  Everyday Example: Email spam filtering                   |   |
+|   |                                                           |   |
+|   |   +---------------------------------------------------+   |   |
+|   |   | DEEP LEARNING (DL)                                |   |   |
+|   |   |  Everyday Example: Facial recognition unlock      |   |   |
+|   |   |                                                   |   |   |
+|   |   |   +-------------------------------------------+   |   |   |
+|   |   |   | GENERATIVE AI (GenAI)                     |   |   |   |
+|   |   |   |  Everyday Example: ChatGPT, Midjourney    |   |   |   |
+|   |   |   +-------------------------------------------+   |   |   |
+|   |   +---------------------------------------------------+   |   |
+|   +-----------------------------------------------------------+   |
++-------------------------------------------------------------------+
 
-Included is some information about a GitHub repository and its language composition.
+---
 
-## Questions based on everything shared
+## Q2. What is the difference between narrow AI and general AI?
 
-1. What is the purpose of the repository named "vlsiguru-ai-literacy-PD-HARENDRA"?
-2. Based on the README heading, what does this project likely focus on?
-3. Why is knowing the repository name, ID, and source URL useful when studying a project?
-4. How does a repository ID help in identifying or tracking a project on GitHub?
-5. What does the README suggest about the scope of the project?
-6. What does "AI literacy" likely mean in the context of this repository?
-7. Why is it important to understand the language composition of a GitHub repository?
-8. How might the repository structure help us learn more about the project goals and technologies used?
-9. What are the first steps you would take to explore this repository and understand its purpose?
-10. What questions do you have about the project after reading the repository details shared here?
+### A - Answer
+- **Narrow AI (Weak AI):** Designed to perform a specific task well, such as recommending products, recognizing faces, translating text, or responding to a chatbot prompt.
+- **General AI (Strong AI):** A theoretical form of AI that can understand, learn, and perform any intellectual task at the level of a human. This remains an area of ongoing research and is not yet fully achieved.
 
-## Answers to Questions 1–10
+**In simple terms:** Narrow AI is task-focused, while General AI is human-level intelligence across many domains.
 
-Note: The repository information provided is limited, so the answers below are based on the available facts and reasonable inference from the project name and README heading.
+---
 
-1. Purpose of the repository:
-   The repository appears to be a project or learning resource focused on AI literacy. The name includes "ai-literacy," which strongly suggests the purpose is related to learning, understanding, or teaching AI concepts.
+## Q3. What is the difference between supervised, unsupervised, and reinforcement learning?
 
-2. Likely focus of the project:
-   The repository likely focuses on AI literacy and digital learning. The heading "vlsiguru-ai-literacy-PD-HARENDRA" suggests a project designed to improve understanding of AI, its applications, and related skills.
+### A - Answer
+- **Supervised Learning:** The model learns from labeled data, where each input has a known correct output. It is used for prediction and classification tasks.
+- **Unsupervised Learning:** The model analyzes unlabeled data to find hidden patterns, structures, or clusters.
+- **Reinforcement Learning:** The model learns by interacting with an environment and receiving rewards or penalties based on its actions. It is often used in game-playing and robotics.
 
-3. Why repository name, ID, and source URL are useful:
-   These details help identify the exact project, track its source, and locate it reliably on GitHub. They are important because multiple repositories can share similar names or topics, and the URL/ID helps confirm the correct project.
+**Example:**
+- Supervised: Detecting spam emails using labeled examples.
+- Unsupervised: Grouping customers by purchasing behavior.
+- Reinforcement: Training an AI to play chess or a robot to navigate a room.
 
-4. How the repository ID helps:
-   A repository ID is a unique internal identifier used by GitHub to distinguish one repository from another. It helps with tracking, APIs, and data systems when the repository name may not be enough for precise identification.
+---
 
-5. What the README suggests about the scope:
-   The README is very brief and only gives the project title. This suggests the repository may still be in an early stage or may use a minimal README. It implies the project is named around an AI literacy theme, but the scope is not fully detailed yet.
+## Q4. What is a neural network?
 
-6. Meaning of "AI literacy" in this context:
-   AI literacy likely means understanding what AI is, how it works, how it is used, its benefits, limitations, and ethical considerations. In a learning context, it may also mean developing skills to use AI responsibly and effectively.
+### A - Answer
+A neural network is a computational model inspired by the structure of the human brain. It consists of interconnected nodes (neurons) organized in layers. These networks learn patterns from data by adjusting the strength of connections between neurons.
 
-7. Importance of language composition:
-   Understanding the language composition of a repository helps reveal the technologies used, such as which programming languages are involved. It can indicate the project’s technical stack, complexity, and the tools needed to work with or contribute to the repository.
+**Key components:**
+- Input layer
+- Hidden layers
+- Output layer
+- Weights and biases
+- Activation functions
 
-8. How the repository structure helps:
-   The file and folder structure can show what the project contains, such as documentation, code, scripts, data, or tests. This helps us understand the project goals, technical design, and the main areas of development.
+Neural networks are the foundation of deep learning.
 
-9. First steps to explore the repository:
-   The first steps would be to read the README, inspect the top-level files and folders, review the repository structure, and check the language composition. After that, we could examine important files and documentation to understand the purpose and technical setup.
+---
 
-10. Questions after reading the repository details:
-   Some questions that remain are: What exactly is the project trying to teach or build? What technologies are used in the code? Who is the target audience? What are the goals of the AI literacy content? Are there project instructions, modules, or activities included in the repository?
+## Q5. What is generative AI and how is it different from traditional AI?
 
-## Reflection
+### A - Answer
+**Generative AI** refers to AI models that can create new content based on patterns learned from training data. Examples include text generation, image generation, music generation, and code generation.
 
-- This repository appears to be related to AI literacy.
-- The README is very brief, so more context would help understand the full project goals.
-- A GitHub repository can be explored further by looking at its files, structure, README content, and code languages.
+**Difference from traditional AI:**
+- Traditional AI often focuses on classification, prediction, or decision-making.
+- Generative AI focuses on creating new outputs that resemble the learned data distribution.
+
+**Example:**
+- Traditional AI: Predicting whether an email is spam.
+- Generative AI: Writing a paragraph, generating an image, or creating a poem.
+
+---
+
+## Q6. What is a large language model (LLM)?
+
+### A - Answer
+A Large Language Model (LLM) is a type of AI model trained on massive amounts of text data to understand and generate human-like language. These models are capable of tasks such as answering questions, summarizing content, writing code, translating languages, and completing text prompts.
+
+**Examples:**
+- ChatGPT
+- Claude
+- Gemini
+- Llama
+
+LLMs are built using transformer architectures and are trained on large-scale text corpora.
+
+---
+
+## Q7. What is a transformer model?
+
+### A - Answer
+A transformer is a deep learning architecture designed to process sequential data, especially text, efficiently and effectively. It uses self-attention, which allows the model to decide which parts of the input are most relevant to each other.
+
+**Why transformers matter:**
+- They handle long-range dependencies well.
+- They are scalable for huge datasets.
+- They power modern LLMs and many multimodal systems.
+
+**Key idea:** The model does not read text like a simple sequence; it learns relationships between all words in a sentence or document.
+
+---
+
+## Q8. What is hallucination in AI?
+
+### A - Answer
+AI hallucination happens when a model generates information that sounds believable but is actually incorrect, fabricated, or unsupported by the source data.
+
+**Examples:**
+- Making up a citation
+- Inventing a historical fact
+- Generating a wrong answer with confident wording
+
+**Why it happens:**
+- The model predicts the next token based on patterns, not truth verification.
+- It may generate fluent but false information.
+
+**Important:** AI outputs must always be checked, especially in academic, professional, or medical use cases.
+
+---
+
+## Q9. What is an AI agent?
+
+### A - Answer
+An AI agent is a software system that can reason about a goal, make decisions, and use tools or external systems to complete tasks. It usually combines:
+- a language model for reasoning,
+- memory or context management,
+- tool use (like search, retrieval, APIs, code execution),
+- a defined goal or workflow.
+
+**Examples of AI agent tasks:**
+- Researching a topic and summarizing findings
+- Writing and debugging code
+- Automating spreadsheet tasks
+- Planning travel and booking flights
+- Managing customer support workflows
+
+**Difference from a chatbot:** A chatbot answers prompts; an agent can act with tools and complete multi-step tasks.
+
+---
+
+## Q10. What is prompt engineering and why is it important?
+
+### A - Answer
+Prompt engineering is the practice of designing effective inputs (prompts) to guide AI models toward better, more relevant, and more useful outputs.
+
+**Why it matters:**
+- It improves answer quality.
+- It reduces ambiguity.
+- It helps control tone, format, and structure.
+- It enables stronger results for tasks like writing, coding, summarizing, and analysis.
+
+**Examples of prompt techniques:**
+- Be specific about the task
+- Provide context and constraints
+- Ask for step-by-step reasoning
+- Request a desired format
+- Provide examples when needed
+
+**Example:**
+Instead of asking, “Explain AI,” ask:
+“Explain AI in simple language for a beginner, in 5 bullet points, with examples and limitations.”
+
+---
+
+## Final Reflection
+
+AI literacy is not just about using tools like ChatGPT or Copilot. It includes understanding how these systems work, where they are useful, and where they can fail. A literate user learns to ask better questions, evaluate outputs critically, and use AI responsibly in learning and work.
+
+This week focused on understanding the foundations of AI, the hierarchy from AI to agents, and the importance of evaluating AI systems carefully.
